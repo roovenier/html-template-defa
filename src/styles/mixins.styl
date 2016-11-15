@@ -1,0 +1,23 @@
+fontreset()
+	font-size 0
+	line-height 0
+	letter-spacing -4px
+
+transition(prop = all, time = 0.2s, ease = linear)
+	-webkit-transition prop time ease
+	-moz-transition prop time ease
+	-ms-transition prop time ease
+	-o-transition prop time ease
+	transition prop time ease
+
+background-size(par)
+	-webkit-background-size par
+	-moz-background-size par
+	background-size par
+
+clearfix()
+	& after
+		display: block
+		height 0
+		clear both
+		content ""
